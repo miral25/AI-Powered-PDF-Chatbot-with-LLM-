@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.chat-box {
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chat-log {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.msg {
+  margin: 0.5rem 0;
+}
+
+.msg.user {
+  text-align: right;
+}
+
+.msg.bot {
+  text-align: left;
+}
